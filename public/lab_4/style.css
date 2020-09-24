@@ -60,7 +60,7 @@ html, body {
   }
   
   body > * {
-    background-color: red;
+    background-color: rgb(90, 212, 221);
     padding: 1%;
   }
   
