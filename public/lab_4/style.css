@@ -16,6 +16,12 @@ html, body {
     margin: 0 auto;
     background-color: #39e3f0;
   }
+
+  form{
+    width: 300px;
+
+  }
+
   
   /* || typography */
   
