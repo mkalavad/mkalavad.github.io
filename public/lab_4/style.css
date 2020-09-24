@@ -17,9 +17,8 @@ html, body {
     background-color: #39e3f0;
   }
 
-  form{
-    width: 300px;
-
+  input{
+    width: 100%;
   }
 
   
