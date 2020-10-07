@@ -14,18 +14,18 @@ body {
   width: 70%;
   min-width: 800px;
   margin: 0 auto;
-  background-color: #2686e6;
+  background-color: #6091C3;
 }
 
 /* || typography */
 
 h1, h2, h3 {
-  font-family: 'Playfair Display', serif;
+  font-family: 'Cinzel Decorative', cursive;
   color: #2a2a2a;
 }
 
 p, input, li {
-  font-family: 'Playfair Display', serif;
+  font-family: 'Roboto Condensed', sans-serif;
   color: #2a2a2a;
 }
 
