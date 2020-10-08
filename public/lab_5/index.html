@@ -55,6 +55,9 @@
      .then((response) => response.text())
      .then((response) => {
           console.log(response);
+          let title = document.querySelector("title");
+          title.innerText = response;
+          
      })
 }
     </script>
