@@ -63,6 +63,18 @@
 
           document.querySelector("body").style.background="grey";
 
+          document.querySelector(".flex-outer").style.margin="0 auto";
+
+          const fruits = ["Apple", "Orange", "Pineapple"];
+          document.querySelector(".checkbox-list-label").innerText = "fruits";
+          const labels = document.querySelectorAll(".flex-inner label");
+
+          labels.forEach((label,i) => {
+              label.innerText = fruits[i];
+          });
+
+          
+
      })
 }
     </script>
