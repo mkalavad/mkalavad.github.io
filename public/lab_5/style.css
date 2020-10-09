@@ -1,6 +1,7 @@
 /*CSS*/
 body {
     background: #F5B91D;
+    font-family: 'Montserrat', sans-serif;
   }
   
   .wrapper {
@@ -23,6 +24,7 @@ body {
     margin-bottom: 5px;
     padding: 4px 8px;
     border-radius: 4px;
+    font-family: 'Montserrat', sans-serif;
   }
   
   /* Enter YOUR lab styles after this line */
