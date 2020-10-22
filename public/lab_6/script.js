@@ -41,7 +41,7 @@ document.body.addEventListener('submit', async (e) => {
         const number = getRandomIntInclusive(0, 243);
         return fromServer[number];
 
-      })
+      });
 
       const reverse = country2.sort((a, b)=> sortFunction(a, b, 'name'));
       const ol = document.createElement('ol');
