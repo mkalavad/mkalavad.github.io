@@ -46,7 +46,7 @@ document.body.addEventListener('submit', async (e) => {
       const reverse = country2.sort((a, b)=> sortFunction(a, b, 'name'));
       const ol = document.createElement('ol');
       ol.className = 'flex-inner';
-      $('form').prepand(ol);
+      $('form').prepend(ol);
 
       reverse.forEach((el, i) => {
         const li = document.createElement('li');
