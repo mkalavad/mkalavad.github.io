@@ -37,24 +37,24 @@ document.body.addEventListener('submit', async (e) => {
     .then((fromServer) => {
       // You're going to do your lab work in here. Replace this comment.
       const country = range(10);
-      const country2 = country.map(()=> {
+      const country2 = country.map(() => {
         const number = getRandomIntInclusive(0, 243);
         return fromServer[number];
 
       })
 
-      const reverse = country2.sort((a,b)=> sortFunction(b,a,'name'));
-      const ul = document.createElement('ul');
-      ul.className = 'flex-inner';
-      $('form').prepand(ul);
+      const reverse = country2.sort((a, b)=> sortFunction(a, b, 'name'));
+      const ol = document.createElement('ol');
+      ol.className = 'flex-inner';
+      $('form').prepand(ol);
 
       reverse.forEach((el, i) => {
         const li = document.createElement('li');
         $(li).append(`<input type="checkbox" value=${el.code} id=${el.code} />`);
         $(li).append(`<label for=${el.code}>${el.name}</label>`);
-        $(ul).append(li);
+        $(ol).append(li);
       });
-      console.log('fromServer', fromServer);
+      //console.log('fromServer', fromServer);
     })
     .catch((err) => console.log(err));
 });
