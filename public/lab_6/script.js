@@ -35,6 +35,9 @@ document.body.addEventListener('submit', async (e) => {
   })
     .then((fromServer) => fromServer.json())
     .then((fromServer) => {
+      if (document.querySelector('.flex-inner')) {
+        document.querySelector('.flex-inner').remove();
+      }
       // You're going to do your lab work in here. Replace this comment.
       const country = range(10);
       const country2 = country.map(() => {
